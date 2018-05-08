@@ -8,6 +8,6 @@ RUN apt-get update \
     && npm install -g yarn
  
 WORKDIR /app
-EXPOSE 3000
+EXPOSE 3000 80 81 8080 8081
 VOLUME /app/
 
